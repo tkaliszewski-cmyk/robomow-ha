@@ -1,0 +1,11 @@
+{
+  "domain": "robomow",
+  "name": "Robomow",
+  "version": "0.1.0",
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "documentation": "https://github.com/tkaliszewski-cmyk/robomow-ha",
+  "issue_tracker": "https://github.com/tkaliszewski-cmyk/robomow-ha/issues",
+  "codeowners": ["@tkaliszewski-cmyk"],
+  "requirements": ["aiohttp>=3.8.0"]
+}

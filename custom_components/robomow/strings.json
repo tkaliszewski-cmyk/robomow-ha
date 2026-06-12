@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Robomow",
+        "description": "Enter your Robomow account credentials and the device serial number printed on the mower (e.g. AB12CD34567).",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "device_id": "Device serial number"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the Robomow cloud. Check your network.",
+      "invalid_auth": "Invalid email or password.",
+      "invalid_device_id": "Device serial number not found on this account."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}
